@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Components</string>
-    <string name="example_component_title_text">Title</string>
-    <string name="example_component_subtitle_text">Subtitle</string>
+    <string name="component_title_text">Forza Football</string>
+    <string name="component_subtitle_text">A Livescore App</string>
 </resources>

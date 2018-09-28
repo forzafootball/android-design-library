@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#7700FFFF"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@color/toolbar_background"
     android:orientation="horizontal"
-    android:padding="8dp">
+    android:paddingLeft="@dimen/toolbar_left_padding">
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="8dp">
+        android:orientation="vertical">
 
-        <include layout="@layout/example_component_title" />
+        <include layout="@layout/component_title" />
 
-        <include layout="@layout/example_component_subtitle" />
+        <include layout="@layout/component_subtitle" />
     </LinearLayout>
 
     <include layout="@layout/overflow_button" />
