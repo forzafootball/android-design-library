@@ -2,9 +2,9 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_gravity="end|center"
+    android:background="#00f"
     android:padding="8dp"
-    android:layout_gravity="center_vertical"
-    android:background="@drawable/selector_button"
     android:src="@drawable/image_overflow_button">
 
 </ImageView>

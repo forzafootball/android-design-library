@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#0f0"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#0f0">
 
-    <include
-        android:id="@+id/include5"
-        layout="@layout/action"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/action"/>
+    <include layout="@layout/fill_2rows"/>
+    <include layout="@layout/overflow_button"/>
 
-    <include
-        layout="@layout/overflow_button"
-        android:layout_height=""
-        android:layout_marginStart="120dp"
-        app:layout_constraintEnd_toStartOf="@+id/include5"
-        app:layout_constraintStart_toStartOf="parent" />
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
