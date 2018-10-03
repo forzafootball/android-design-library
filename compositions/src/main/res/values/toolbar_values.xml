@@ -3,4 +3,5 @@
     <color name="toolbar_background">#773377FF</color>
     <dimen name="toolbar_height">56dp</dimen>
     <dimen name="toolbar_left_padding">8dp</dimen>
+    <dimen name="padding">8dp</dimen>
 </resources>
